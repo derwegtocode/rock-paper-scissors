@@ -1,0 +1,93 @@
+* {
+    background-color: #2f3135;
+    font-family: 'Rubik Moonrocks', cursive, Sans-serif;
+    color: #D0E4E4;
+    -webkit-text-stroke: 0.4px white;
+
+}
+
+html {
+    position: relative;
+}
+
+.header {
+    display: flex;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.intro {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-para {
+    font-size: 30px;
+    text-align: center;
+}
+
+.separation {
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    -webkit-text-stroke: 0.2px white;
+}
+
+.choices {
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 50px;
+    
+}
+
+button {
+    font-size: 50px;
+    padding: 5px 10px;
+    background-color: #232529;
+}
+
+.results {
+    display: flex;
+    font-size: 30px;
+    margin: 0 20%;
+    justify-content: space-around;
+}
+
+#games {
+    max-width: 50%;
+    text-align: center;
+}
+
+#points {
+    max-width: 50%;
+    text-align: center;
+}
+
+#message {
+    font-size: 30px;
+    text-align: center;
+    -webkit-text-stroke: 0.2px white;
+}
+
+#newGameDiv {
+    font-size: 35px;
+    text-align: center;
+    margin: 0 15%;
+    border: 4px dashed white;
+
+}
+
+#newGameMessage {
+    -webkit-text-stroke: 0.3px white;  
+    padding: 1px 5px;
+}
+
+#yesButton, #noButton {
+    margin: 0 0 20px 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rock-paper-scissors.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/5083425b8f.js" crossorigin="anonymous"></script>
+    <script src="rock-paper-scissors.js" defer></script>
+</head>
+<body>
+    <div class="header">
+    <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+    <div class="intro"><p class="intro-para">Hello, welcome to my version of Rock-Paper-Scissors
+        against the machine.</br> 
+        Best score out of five rounds wins!.</br> 
+        Please choose one...</p></div>
+    <div class="separation"></div>
+    <div class="choices">
+        <button type="button" class="selection" id="rock">ROCK </button>
+        <button type="button" class="selection" id="paper">PAPER </i></button>
+        <button type="button" class="selection" id="scissors">SCISSORS </button>
+    </div>
+    <div class="results">
+          
+        <div id="points">
+            <p id="yourScore">YOU: </p>
+            <p id="computersScore">THE MACHINE: </p>
+        </div>
+        <div id="games">
+            <p id="yourChoice"></p>
+            <p id="computersChoice"></p>
+        </div>  
+    </div>
+    <div id="messageDiv"><p id="message"></p></div>
+</body>
+</html>
